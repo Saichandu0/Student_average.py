@@ -54,12 +54,15 @@ def read_and_identify(filename, threshold):
         print(f"Error reading file: {e}")
     return below_threshold
 
-
+def main():
 # Lets  write students data into a file
-write_to_file(students, filename)
+ write_to_file(students, filename)
 
 # Lets identify students who are below the threshold value
 students_below_threshold = read_and_identify(filename, threshold)
 
 # finally lets  print t the result
 print("Students needing improvement:", students_below_threshold)
+
+if __name__ == "__main__":
+    main()#Calling the main function.
