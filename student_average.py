@@ -5,7 +5,7 @@ Then Check if any student's average grade is below the set limit; if yes, add th
 Later on Make sure the program handles file errors properly to avoid crashes.
 Finally print the names of students who need improvement."""
 
-#Lets create a dictonary lit
+#Lets create a dictonary list
 students = [
     {"name": "Alice", "ID": "1001", "grades": [85, 90, 78]},
     {"name": "Bob", "ID": "1002", "grades": [70, 68, 65]},
